@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding:20px;
+    background:#1c1c1c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.7em;
+    font-weight:normal;
+    color:#fff;
+}
+    .container{
+        width:100%; 
+        min-width: 250px;
+        max-width: 350px;
+        height:455px;
+        margin: 0 auto;
+        background:#273549;
+        border-radius:4px;
+    }
+    .hdr{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;    
+        width:100%;
+        min-width: 250px;
+        max-width: 350px;
+        margin:0 auto 1em;
+        border:0;
+        height:245px;
+        background:#6943FF;
+        text-align:center;
+        box-sizing:border-box;
+        padding:0.9em;
+        border-radius:4px;
+    }
+        .hdr h1{
+            font-size:1.6em;
+            margin:0 0 0.3em 0;
+            padding:0;
+        }
+                
+    input.unit{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: rgba(0,0,0, 0);
+        border:1px solid #fff;
+        color:#fff;
+        width:118px;
+        height:60px;
+        margin:10px auto;
+        padding-right: -20px;
+        font-size:4em;
+        box-sizing:border-box;
+        outline: none;
+        text-align:center;
+        clear:both;
+        border-radius:2px;
+        -webkit-appearance: none;
+        -moz-appearance: textfield;
+}
+    button#btn-convert{
+        margin:0 auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        clear:both;
+        background:#fff;
+        border:0;
+        outline:0;
+        width:118px;
+        height:50px;
+        padding:0.5em 0.5em;
+        font-size:1.4em;
+        box-sizing:border-box;
+        color:#6943FF;
+        text-transform: uppercase;
+        font-weight:bold;
+        border-radius:4px;
+        cursor:pointer;
+    }
+    
+    .content-box{
+        background:rgba(0,0,0, 30%);
+        margin:0 0.9em 0.6em;
+        padding:0.1em;
+        text-align:center;
+        box-sizing:border-box;
+        border-radius:4px;
+    }
+        .content-box h2{
+            font-size:1.2em;
+            margin:0.8em 0 0.2em;
+            padding:0;
+            color: #CCC1FF;
+        }
+        
+        .content-box p{ margin:0 0 1.3em 0; padding:0; }
